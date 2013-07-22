@@ -28,11 +28,6 @@
       <string>ERB</string>
       <key>scope</key>
       <string>source.ruby.embedded, source.ruby.rails.embedded</string>
-      <key>settings</key>
-      <dict>
-        <key>background</key>
-        <string>#1F1F1F</string>
-      </dict>
     </dict>
     <dict>
       <key>name</key>
@@ -44,7 +39,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#BC9458</string>
+        <string>#838683</string>
       </dict>
     </dict>
     <dict>
@@ -77,11 +72,11 @@
       <key>name</key>
       <string>Class (definition)</string>
       <key>scope</key>
-      <string>entity.name</string>
+      <string>entity.name, support.class</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FFFFFF</string>
+        <string>#EBBB61</string>
       </dict>
     </dict>
     <dict>
@@ -280,6 +275,39 @@
       <dict>
         <key>background</key>
         <string>#2F33AB</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>diff.deleted</string>
+      <key>scope</key>
+      <string>markup.deleted</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#F92672</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>diff.inserted</string>
+      <key>scope</key>
+      <string>markup.inserted</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#A6E22E</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>diff.changed</string>
+      <key>scope</key>
+      <string>markup.changed</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#967EFB</string>
       </dict>
     </dict>
   </array>
